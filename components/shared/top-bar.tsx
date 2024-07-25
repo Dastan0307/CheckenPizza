@@ -1,13 +1,13 @@
 import { cn } from '@/lib/utils'
 import React from 'react'
-import { SortPopup, Categories } from '.'
+import { Categories, SortPopup } from '.'
 import { Container } from './container'
 
 interface Props {
 	className: string
 }
 
-const TopBar: React.FC<Props> = ({ className }) => {
+export const TopBar: React.FC<Props> = ({ className }) => {
 	return (
 		<div
 			className={cn(
@@ -22,5 +22,3 @@ const TopBar: React.FC<Props> = ({ className }) => {
 		</div>
 	)
 }
-
-export default TopBar

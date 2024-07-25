@@ -6,7 +6,7 @@ interface Props {
 	className: string
 }
 
-const SortPopup: React.FC<Props> = ({ className }) => {
+export const SortPopup: React.FC<Props> = ({ className }) => {
 	return (
 		<div
 			className={cn(
@@ -21,4 +21,3 @@ const SortPopup: React.FC<Props> = ({ className }) => {
 	)
 }
 
-export default SortPopup
