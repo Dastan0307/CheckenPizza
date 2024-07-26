@@ -2,6 +2,7 @@ import React from 'react'
 import { Title } from './title'
 import { FilterCheckbox } from './filter-checkbox'
 import { Input } from '../ui'
+import { RangeSlider } from './range-slider'
 
 interface Props {
 	className: string
