@@ -6,7 +6,7 @@ import { RangeSlider } from './range-slider'
 import { Title } from './title'
 
 interface Props {
-	className: string
+	className?: string
 }
 
 export const Filters: React.FC<Props> = ({ className }) => {

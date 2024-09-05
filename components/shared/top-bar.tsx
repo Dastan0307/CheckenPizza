@@ -4,7 +4,7 @@ import { Categories, SortPopup } from '.'
 import { Container } from './container'
 
 interface Props {
-	className: string
+	className?: string
 }
 
 export const TopBar: React.FC<Props> = ({ className }) => {
